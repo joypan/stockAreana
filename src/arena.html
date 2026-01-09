@@ -180,7 +180,10 @@
             <button @click="currentView = 'ANALYSTS'" :class="['p-2 px-3 border-round border-none cursor-pointer transition-all transition-duration-200 font-medium', currentView === 'ANALYSTS' ? 'bg-primary  shadow-2' : 'surface-200 text-600 hover:surface-300']" :style="currentView !== 'ANALYSTS' ? 'backdrop-filter: blur(8px); opacity: 0.85;' : ''">
                 <i class="fa-solid fa-users mr-2"></i>分析師管理
             </button>
-            <button @click="showSettings = true" class="p-2 border-circle surface-100 border-none cursor-pointer hover:surface-200 text-700 w-3rem h-3rem flex align-items-center justify-content-center">
+            <a href="https://github.com/joypan/stockAreana" target="_blank" class="border-circle surface-100 border-none cursor-pointer hover:surface-200 text-700 w-3rem h-3rem flex align-items-center justify-content-center no-underline transition-colors" title="GitHub Repo">
+                <i class="fa-brands fa-github text-lg"></i>
+            </a>
+            <button @click="showSettings = true" class="p-0 border-circle surface-100 border-none cursor-pointer hover:surface-200 text-700 w-3rem h-3rem flex align-items-center justify-content-center">
                 <i class="fa-solid fa-cog"></i>
             </button>
         </div>
@@ -518,6 +521,16 @@
             </div>
         </div>
 
+    </div>
+
+    <!-- Footer -->
+    <div class="surface-0 p-3 flex justify-content-center align-items-center border-top-1 surface-border ml-2 mr-2 mb-2 border-round shadow-1">
+        <a href="https://github.com/joypan/stockAreana" target="_blank" class="text-700 no-underline hover:text-primary mr-3 flex align-items-center transition-colors">
+            <i class="fa-brands fa-github text-xl mr-2"></i>
+            <span class="font-medium">joypan/stockAreana</span>
+        </a>
+        <span class="text-400 mr-3">|</span>
+        <span class="text-500 text-sm">MIT License</span>
     </div>
 
     <!-- Modals -->
