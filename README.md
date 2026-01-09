@@ -5,6 +5,10 @@ Stock Analyst Arena 是一個基於 AI 大語言模型的**多重觀點股票分
 
 ![Home Screen](doc/img/home.png)
 
+### 系統架構圖 (System Architecture)
+
+![System Architecture](doc/img/system_diagram.png)
+
 ## 🌟 核心功能 (Key Features)
 
 - **🤖 AI 分析師團隊 (AI Analyst Team)**
