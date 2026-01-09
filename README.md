@@ -3,6 +3,8 @@
 Stock Analyst Arena 是一個基於 AI 大語言模型的**多重觀點股票分析平台**。
 透過模擬多位不同風格的 AI 分析師（如價值投資、技術分析、宏觀經濟專家）針對同一主題進行辯論與交互參考，最後由 AI 裁判給出綜合性的投資建議與風險評估。
 
+🔗 **系統網址 (System URL)**: [https://joypan.github.io/stockAreana/src/arena.html](https://joypan.github.io/stockAreana/src/arena.html)
+
 ![Home Screen](doc/img/home.png)
 
 ### 系統架構圖 (System Architecture)
